@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="quiz-container">
+    <h1>Coding Quiz</h1>
+    <button id="start-btn">Start Quiz</button>
+    <div id="question-container"></div>
+    <div id="timer">Time: <span id="time-left"></span></div>
+  </div>
+
+  <div id="end-screen" class="hidden">
+    <h2>Quiz Over!</h2>
+    <form id="submit-form">
+      <input type="text" id="initials" name="initials" maxlength="3" placeholder="Enter initials" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
